@@ -1,24 +1,22 @@
 # DevfcampPortfolio Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>tis is a ruby on rails 5 application that allows users to create their own portfolio.
 
-Things you may want to cover:
+###Fetures
 
-* Ruby version
+- Real time caht engine for comments
+- blog
+- Portfolio
+- Drag and drop portfolio
 
-* System dependencies
+###code example
 
-* Configuration
+```ruby
+def my_great_method
+    puts "here it is"
+end
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```javascript
+alert('Hi there')
+```
