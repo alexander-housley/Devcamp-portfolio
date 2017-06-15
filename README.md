@@ -2,14 +2,14 @@
 
 >tis is a ruby on rails 5 application that allows users to create their own portfolio.
 
-###Fetures
+### Features
 
 - Real time chat engine for comments
 - blog
 - Portfolio
 - Drag and drop portfolio
 
-###code example
+### Code Example
 
 ```ruby
 def my_great_method
