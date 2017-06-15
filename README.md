@@ -4,7 +4,7 @@
 
 ###Fetures
 
-- Real time caht engine for comments
+- Real time chat engine for comments
 - blog
 - Portfolio
 - Drag and drop portfolio
@@ -18,5 +18,5 @@ end
 ```
 
 ```javascript
-alert('Hi there')
+alert('Hi there');
 ```
