@@ -17,7 +17,7 @@
     9.times do |portfolio_item|
         Portfolio.create!(
         title: "portfolio title #{portfolio_item}",   
-        subtitle:"bla",
+        subtitle:"baa",
         body: "blu",
         main_image:"http://via.placeholder.com/350x150",
         thumb_image:"http://via.placeholder.com/350x150",
