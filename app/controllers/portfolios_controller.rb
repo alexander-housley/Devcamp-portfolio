@@ -48,5 +48,4 @@ class PortfoliosController < ApplicationController
       format.html { redirect_to portfolios_url, notice: 'record was removed.' }
     end
   end
-
 end
