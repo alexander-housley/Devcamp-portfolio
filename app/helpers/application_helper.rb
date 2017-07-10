@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+  
+  def copyright_generator
+    HousleyViewTool2::Renderer.copyright 'Alex Housley', 'All Rights Reserved'
+  end
 end

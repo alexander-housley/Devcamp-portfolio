@@ -54,4 +54,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
-gem 'housley_veiw_tool', '~> 0.1.0'
+
+gem 'housley_view_tool2', git: 'https://github.com/alexander-housley/housley_view_tool2'
