@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(version: 20170626150449) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "skills", force: :cascade do |t|
+  create_table "skills", id: :serial, force: :cascade do |t|
     t.string "title"
     t.integer "percent_utilized"
     t.datetime "created_at", null: false
