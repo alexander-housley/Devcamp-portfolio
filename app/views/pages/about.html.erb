@@ -1,2 +1,27 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+<h1>About Me</h1>
+
+<p>I go to the Salt Lake Center for Science Education.</p>
+<p>Im in 9th grade.</p>
+<p><h2>My school Activities</h2>
+    <un>
+        <li>I love Math</li>
+        <li>Science is my favorite subject</li>
+        <li>I really love camping (My school has a lot of opportunities in that field.</li>
+    </un>
+</p>
+
+<p><h2>Extra curricular Activities</h2>
+    <un>
+      <li>swimming</li>
+      <li>coding</li>
+    </un>
+</p>
+
+<p><h2>Visit my school's page</h2>
+    <un>
+        <li>
+        <%= link_to image_tag("http://www.yourbestchoice.org/images/slcse.jpg", :class => "SLCSE_icon", :alt => "SLCSE", :target => "_blank"),                 
+            "http://slcse.weebly.com/" %>
+        </li>
+    </un>
+</p>
