@@ -18,8 +18,16 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
           
-          <div id="background"></div>
-
+          <%= video_tag(
+              'Grey_203d_20Flourish_20background_20loop_20HD_20_SaveYouTube_com_.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'home_bg.png'
+            )
+            %>
+            
           <%= render "shared/application_nav" %>
 
           <%= yield %>
