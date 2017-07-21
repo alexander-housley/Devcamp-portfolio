@@ -199,6 +199,19 @@ body {
   margin-right: 15px
 }
 
-.container {
+.Thing {
+  display:inline-block;
+  margin-top: 50px;
   text-align: left;
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+.link-image {
+  height: 200px;
+  width: 500px;
+  position: relative;
 }

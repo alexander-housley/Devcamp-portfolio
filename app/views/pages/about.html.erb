@@ -1,32 +1,32 @@
-<h1>About Me</h1>
-        <p>I go to the Salt Lake Center for Science Education.</p>
-        <p>I'm in 9th grade.</p>
-<div class="container">
+<div class="title">
+    <h1>About Me</h1>
+    <p>I am a 9th grade student that goes to the Salt Lake Center for Science Education (SLCSE).</p>
+</div>
+<div class="Thing">
   <div class="row">
-    <div class="col-md-5">
-        <p><h2>My school Activities</h2>
-            <un>
-                <li>I love Math</li>
-                <li>Science is my favorite subject</li>
-                <li>I really love camping (My school has a lot of opportunities in that field.</li>
-            </un>
-        </p>
-        
-        <p><h2>Extra curricular Activities</h2>
-            <un>
-              <li>swimming</li>
-              <li>coding</li>
-            </un>
+    <div class="col-md 4">
+        <%= image_tag "IMGP0484.jpg", width: 250, alt: "profile image" %>
+    </div>
+    
+    <div class="col-md-8">
+        <p>
+            I really enjoy math I think that Math can be applied anywhere that you want it to maing it very valuable.
+            Science is by far my favorite subject which is no surprise seeing the school that I go to.
+            On my free time I do swimming which i think is a lot of fun. I also have a huge interest in coding, infact I took a class in coding to design this very website.
+            
+            <hr>
+            
+            <h3>
+                Visit my schools website
+            </h3>
+            
+            <%= link_to image_tag("http://www.yourbestchoice.org/images/slcse.jpg", :class => "SLCSE_icon", :alt => "SLCSE", :target => "_blank"),                 
+            "http://slcse.weebly.com/" %>
         </p>
     </div>
-  
-
-
-    <div lass="col-md 7">
-        <p><h2>Visit my school's page</h2>
-            <%= link_to image_tag("http://www.yourbestchoice.org/images/slcse.jpg", :class => "SLCSE_icon", :alt => "SLCSE", :target => "_blank"),                 
-                "http://slcse.weebly.com/" %>
-        </p>
+    
+    <div class="link-image">
+        
     </div>
   </div>
 </div>
