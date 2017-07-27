@@ -29,7 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -199,6 +198,36 @@ body {
   margin-right: 15px
 }
 
-.container {
+.Thing {
+  display:inline-block;
+  margin-top: 50px;
   text-align: left;
+  margin-bottom: 100px;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+.link-image {
+  height: 200px;
+  width: 500px;
+  position: relative;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.app-footer {
+  color: white;
 }
