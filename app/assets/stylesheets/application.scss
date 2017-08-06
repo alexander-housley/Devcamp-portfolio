@@ -255,7 +255,7 @@ body {
 }
 
 .app-card-container > .card {
-  padding-left: 40px;
+  padding: 40px;
 }
 
 .app-card-container-contact {
@@ -265,4 +265,15 @@ body {
 
 .app-card-container-contact > .card {
   padding: 40px;
+}
+
+
+.profile-img {
+  border: 1px solid grey;
+  position: relative;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

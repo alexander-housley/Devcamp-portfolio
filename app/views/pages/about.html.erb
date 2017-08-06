@@ -1,22 +1,19 @@
 <div class="app-card-container">
-    <div class="card">
-        <div class="title">
-            <h1>About Me</h1>
-            <p>I am a 9th grade student that goes to the Salt Lake Center for Science Education (SLCSE).</p>
-        </div>
-        <div class="Thing">
-          <div class="row">
-            <div class="col-md 4">
-                <%= image_tag "IMGP0484.jpg", width: 250, alt: "profile image" %>
-            </div>
-            
-            <div class="col-md-8">
-                <p>
-                    I really enjoy math I think that Math can be applied anywhere that you want it to maing it very valuable.
-                    Science is by far my favorite subject which is no surprise seeing the school that I go to.
-                    On my free time I do swimming which i think is a lot of fun. I also have a huge interest in coding, infact I took a class in coding to design this very website.
-                    
-                    <hr>
+  <div class="card">
+    <h1>About Me</h1>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-5">
+        <%= image_tag "IMGP0484.jpg", width: 300, alt: "profile image", class: 'profile-img' %>
+      </div>
+
+      <div class="col-md-7">
+        <p>I am just a new high school student but I aspire to be a very good coder someday. I have worked hard for many things that I have achieved and I intend to work even harder for the things I don't have.</p>
+
+        <p>I Have a strong work ethic and a good sense of teamwork. So far my skills have fared well in jobs i've had. And not only in jobs some of my favorite subjects in school require just the skills that I possess. Such as physics, math, and science.</p>
+
                     
                     <h3>
                         Visit my schools website
@@ -27,10 +24,56 @@
                 </p>
             </div>
             
-            <div class="link-image">
+            <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#jobHistory"
+                  aria-expanded="false"
+                  aria-controller="jobHistory"
+                >
+                  Job History
+                </button>
+            </p>
                 
-            </div>
+            <p>
+              <button
+                class="btn btn-primary"
+                type="button"
+                data-toggle="collapse"
+                data-target="#education"
+                aria-expanded="false"
+                aria-controler="education"
+              >
+                Education
+              </button>
+            </p>
+    
+            <p>
+              <div class="collapse" id="jobHistory">
+                <div class="card card-block">
+                  Job 1
+                </div>
+                <div class="card card-block">
+                  Job 2
+                </div>
+              </div>
+    
+              <div class="collapse" id="education">
+                <div class="card card-block">
+                  School 1
+                </div>
+                <div class="card card-block">
+                  School 2
+                </div>
+                <div class="card card-block">
+                  School 3
+                </div>
+              </div>
+            </p>
           </div>
         </div>
     </div>
 </div>
+
